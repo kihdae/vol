@@ -13,7 +13,7 @@ const UserForm = () => {
       const response = await axios.post('http://localhost:3000/api/users/register', {
         name,
         email,
-        password
+        // password : await hashedPassword(pw)
       });
 
    
